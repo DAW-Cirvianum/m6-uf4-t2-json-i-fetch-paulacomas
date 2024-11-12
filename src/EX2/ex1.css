@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.contenidor {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 50px;
+}
+ul {
+    list-style-type: none; /* Removes the default bullet points */
+    padding: 0; /* Removes the default padding */
+    margin: 0; /* Removes the default margin */
+}
+
+li {
+    padding: 10px 0; /* Adds vertical padding */
+    border-bottom: 1px solid #ddd; /* Adds a bottom border */
+}
+
+li:last-child {
+    border-bottom: none; /* Removes the bottom border from the last li element */
+}
+
+
+
+#myChart {
+    max-width: 700px;
+    height: 300px;
+}
